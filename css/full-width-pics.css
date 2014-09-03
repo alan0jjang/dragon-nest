@@ -5,7 +5,7 @@
  */
 
 body {
-    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    margin-top: 0; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .image-bg-fluid-height,
@@ -20,7 +20,7 @@ body {
 .image-bg-fluid-height {
 	background: url('../img/title.jpg') no-repeat center center scroll;
 	background-size: 105% auto;
-	padding: 100px 0;
+	padding: 10% 0;
 	
 }
 
@@ -35,20 +35,20 @@ body {
 }
 
 section {
-    padding: 50px 0;
+    padding: 1% 0;
 }
 
 .section-heading {
-    margin: 5px 0;
+    margin: 1px 0;
     font-size: 4em;
 }
 
 .section-lead {
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 .section-paragraph {
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 footer {
@@ -57,7 +57,7 @@ footer {
 
 @media(max-width:768px) {
     section {
-        padding-top: 25px;
+        padding-top: 5px;
         padding-bottom: 25px;
     }
 
