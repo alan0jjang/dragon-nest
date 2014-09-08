@@ -6,8 +6,7 @@
 
 body {
     margin-top: 0; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-	background-image: url(../img/scales.jpg);
-	z-index: -1;
+
 }
 
 .image-bg-fluid-height,
@@ -46,7 +45,7 @@ section {
 }
 
 .section-lead {
-    margin: 20px 0;
+    margin: 0;
 }
 
 .section-paragraph {
@@ -55,6 +54,14 @@ section {
 
 .text-white{
 	color: #ffffff;
+}
+
+.sidebar-right{
+    float: right;
+    width: 21%;
+    background: #eee;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 footer {

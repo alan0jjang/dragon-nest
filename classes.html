@@ -14,6 +14,7 @@
 	</head>
 
 	<body>
+		<!-- Start of navigation header -->
 		<div class="navbar-inverse navbar-static-top" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
@@ -24,17 +25,17 @@
 						<span class="icon-bar bg-primary"></span>
 						<span class="icon-bar bg-primary"></span>
 					</button>
-					<a href="home.html" class="navbar-brand">Project: Dragon Nest</a>
+					<a href="index.html" class="navbar-brand">Project: Dragon Nest</a>
 				</div>
 				<div class="navbar-collapse collapse">
-					<ul class="nav navbar-nav">
+					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a href="home.html">Home</a>
+							<a href="index.html">Home</a>
 						</li>
 						<li>
 							<a href="info.html">Info</a>
 						</li>
-						<li>
+						<li class="active">
 							<a href="classes.html">Classes</a>
 						</li>
 						<li>
@@ -50,6 +51,9 @@
 				</div>
 			</div>
 		</div>
+		<!-- End of navigation header -->
+
+		<!-- Start of carousel slide -->
 		<header>
 			<div class="container-fluid">
 				<div id="carousel-header" class="carousel slide" data-ride="carousel">
@@ -93,10 +97,13 @@
 				</div>
 			</div>
 		</header>
+		<!-- End of carousel slide -->
+
+		<!-- Start of section -->
 		<section>
 			<div class="container well">
 				<div class="row">
-					<div class="col-6 col-sm-6 col-lg-4">
+					<div class="col-lg-6 col-sm-6">
 						<h2>Heading</h2>
 						<p>
 							Classes here will be explained
@@ -105,7 +112,7 @@
 							<a class="btn btn-default" href="#" role="button">More details >></a>
 						</p>
 					</div>
-					<div class="col-6 col-sm-6 col-lg-4">
+					<div class="col-lg-4 col-sm-6">
 						<h2>Heading</h2>
 						<p>
 							Classes here will be explained
@@ -114,7 +121,7 @@
 							<a class="btn btn-default" href="#" role="button">More details >></a>
 						</p>
 					</div>
-					<div class="col-6 col-sm-6 col-lg-4">
+					<div class="col-lg-4 col-sm-6">
 						<h2>Heading</h2>
 						<p>
 							Classes here will be explained
@@ -123,20 +130,9 @@
 							<a class="btn btn-default" href="#" role="button">More details >></a>
 						</p>
 					</div>
-					<div class="col-6 col-sm-6 col-lg-4">
+					<div class="col-lg-4 col-sm-6">
 						<h2>Heading</h2>
-						<p>
-							Classes here will be explained
-						</p>
-						<p>
-							<a class="btn btn-default" href="#" role="button">More details >></a>
-						</p>
-					</div>
-					<div class="col-6 col-sm-6 col-lg-4">
-						<h2>Heading</h2>
-						<p>
-							Classes here will be explained
-						</p>
+						<p>Classes here will be explained</p>
 						<p>
 							<a class="btn btn-default" href="#" role="button">More details >></a>
 						</p>
@@ -144,10 +140,18 @@
 				</div>
 			</div>
 		</section>
-		<footer class="container-fluid text-default panel-footer">
-			<span class="glyphicon glyphicon-copyright-mark"></span>
-			Made by Alan Tran of Company 2014
-		</footer>
+		<!-- End of section-->
+
+		<!-- Start of footer section -->
+		<div class="navbar navbar-default navbar-static-bottom">
+			<div class="container">
+				<p class="navbar-text">
+				<span class="glyphicon glyphicon-copyright-mark"></span>
+				Made by Alan Tran of Company 2014 </p>
+			</div>
+		</div>
+		<!-- End of footer section -->
+
 		<!-- jQuery version 1.11.1 -->
 		<script src="js/jquery-1.11.1.min.js"></script>
 
